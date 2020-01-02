@@ -1,0 +1,15 @@
+{
+  "name": "化简为凡",
+  "short_name": "为凡",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#2196f3",
+  "description": "化简为凡的文档、博客。",
+  "icons": [
+    {
+      "src": "/Pumpkin.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ]
+}

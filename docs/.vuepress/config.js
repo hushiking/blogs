@@ -5,6 +5,10 @@ module.exports = {
     ['link', {
       rel: 'icon',
       href: '/garageband.ico'
+    }],
+    ['link', {
+      rel: 'manifest',
+      href: '/manifest.json'
     }]
   ],
   locales: {
@@ -92,6 +96,15 @@ module.exports = {
         '', /* / */
         'about' /* /about.html */
       ]
+    }
+  },
+  plugins: {
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      updatePopup: {
+        message: "发现新内容可用.",
+        buttonText: "刷新"
+      }
     }
   }
 }
