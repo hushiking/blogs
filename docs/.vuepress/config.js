@@ -11,6 +11,15 @@ module.exports = {
       href: '/manifest.json'
     }]
   ],
+  plugins: {
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      updatePopup: {
+        message: "发现新内容可用.",
+        buttonText: "刷新"
+      }
+    }
+  },
   locales: {
     '/': {
       lang: 'zh-CN'
@@ -96,15 +105,6 @@ module.exports = {
         '', /* / */
         'about' /* /about.html */
       ]
-    }
-  },
-  plugins: {
-    '@vuepress/pwa': {
-      serviceWorker: true,
-      updatePopup: {
-        message: "发现新内容可用.",
-        buttonText: "刷新"
-      }
     }
   }
 }

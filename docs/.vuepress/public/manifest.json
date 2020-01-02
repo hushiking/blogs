@@ -7,9 +7,9 @@
   "description": "化简为凡的文档、博客。",
   "icons": [
     {
-      "src": "/Pumpkin.png",
+      "src": "/fire.png",
       "type": "image/png",
-      "sizes": "128x128"
+      "sizes": "256x256"
     }
   ]
 }
