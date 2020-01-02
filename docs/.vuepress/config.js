@@ -12,8 +12,11 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
+  // base: '/blogs/',
   themeConfig: {
     repo: 'hushiking/blogs',
+    // 假如文档不是放在仓库的根目录下：
+    docsDir: 'docs',
     editLinks: true,
     lastUpdated: 'Last Updated', // string | boolean
     nav: [{
