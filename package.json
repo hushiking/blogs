@@ -1,0 +1,12 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": "git@github.com:hushiking/blogs.git",
+  "author": "hushijin <hushiking@163.com>",
+  "license": "MIT"
+}
