@@ -1,24 +1,18 @@
 function renderValine(router) {
   // 重新渲染 评论区
   router.afterEach((to, from) => {
-    let $page = document.querySelector('.page')
     let vcomments = document.getElementById('vcomments')
     if (!vcomments) {
       vcomments = document.createElement('div')
       vcomments.id = 'vcomments'
       vcomments.style.margin = '1em 4em 0 4em'
     }
-    if ($page) {
+    // 获取不到vuepress的page加载完成时的钩子，只能采用笨方法
+    setTimeout(() => {
+      let $page = document.querySelector('.page')
       $page.appendChild(vcomments)
-    } else {
-      // 获取不到vuepress的page加载完成时的钩子，只能采用笨方法
-      setTimeout(() => {
-        $page = document.querySelector('.page')
-        $page.appendChild(vcomments)
-        valine()
-      }, 500)
-    }
-    valine()
+      valine()
+    }, 500)
   })
 }
 
