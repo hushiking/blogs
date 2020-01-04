@@ -11,6 +11,8 @@
   "author": "hushijin <hushiking@163.com>",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
     "@vuepress/plugin-pwa": "^1.2.0",
     "vuepress": "^1.2.0"
   },

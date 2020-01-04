@@ -19,6 +19,7 @@ function renderValine(router) {
 function valine() {
   const Valine = require('valine')
   const leancloudStorage = require('leancloud-storage')
+  const secretkeyConf = require('../../config/secretKeyConf')
   // require window 
   if (typeof window !== undefined) {
     window.AV = leancloudStorage
@@ -26,8 +27,8 @@ function valine() {
   // 初始化valine
   new Valine({
     el: '#vcomments',
-    appId: 'fNRdGXw2Nxllsf5X5tphLghS-gzGzoHsz', // your appId
-    appKey: 'JWQotRV97pL9bH90nhrl22br', // your appKey
+    appId: secretkeyConf.appId, // your appId
+    appKey: secretkeyConf.appKey, // your appKey
     notify: false, // 邮件提醒 
     verify: false, // 验证码
     avatar: 'monsterid',
