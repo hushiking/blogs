@@ -1,4 +1,12 @@
-# 主要区别
+---
+title: for...in 与 for...of 遍历的区别
+date: 2016-12-13 20:19:31
+categories: web前端
+tags: [JavaScript, Array, 循环遍历]
+description: "指出 for...in 与 for...of 循环遍历的一些区别。"
+---
+
+## 主要区别
 
 1. 推荐在循环对象属性的时候，使用 `for...in`，在遍历数组的时候的时候使用 `for...of`。
 1. `for...in` 循环出的是 `key`，`for...of` 循环出的是 `value`

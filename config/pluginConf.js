@@ -1,4 +1,5 @@
 const secretkeyConf = require('./secretKeyConf')
+const moment = require('moment')
 
 module.exports = {
   '@vuepress/pwa': {
@@ -8,6 +9,15 @@ module.exports = {
       buttonText: "刷新"
     }
   },
+  '@vuepress/last-updated': {
+    transformer: (timestamp, lang) => {
+      moment.locale(lang)
+      return moment(timestamp).fromNow()
+    }
+  },
   '@vuepress/back-to-top': true,
-  '@vuepress/google-analytics': secretkeyConf.ga
+  '@vuepress/google-analytics': {
+    'ga': secretkeyConf.ga
+  },
+  '@vuepress/medium-zoom': true,
 }

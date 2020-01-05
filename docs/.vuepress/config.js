@@ -1,6 +1,6 @@
 const pluginConf = require('../../config/pluginConf')
 const navConf = require('../../config/navConf')
-const sidebarConf = require('../../config/sidebarConf/index')
+const sidebarConf = require('../../config/sidebarConf')
 
 module.exports = {
   title: '化简为凡',
@@ -26,9 +26,11 @@ module.exports = {
     repo: 'hushiking/blogs',
     // 假如文档不是放在仓库的根目录下：
     docsDir: 'docs',
+    docsBranch: 'gh-pages',
     editLinks: true,
-    lastUpdated: 'Last Updated', // string | boolean
+    editLinkText: '点击改善此页面！',
+    lastUpdated: '上次更新', // string | boolean
     nav: navConf,
     sidebar: sidebarConf
-  }
+  },
 }

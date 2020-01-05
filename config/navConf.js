@@ -1,35 +1,28 @@
 module.exports = [{
     text: '前端',
     items: [{
-        text: 'JS',
-        items: [{
-            text: 'JS语法',
-            link: '/front-end/js/'
-          },
-          {
-            text: '打包工具',
-            link: '/front-end/pack/'
-          },
-          {
-            text: '框架',
-            link: '/front-end/framework/'
-          },
-          {
-            text: 'H5',
-            link: '/front-end/h5/'
-          }
-        ]
+        text: 'JavaScript',
+        link: '/front-end/javascript/'
       },
       {
-        text: 'HTML与CSS',
-        items: [{
-          text: 'HTML',
-          link: '/front-end/html/'
-        }, {
-          text: 'CSS',
-          link: '/front-end/css/'
-        }]
-      }
+        text: 'HTML',
+        link: '/front-end/html/'
+      }, {
+        text: 'CSS',
+        link: '/front-end/css/'
+      },
+      {
+        text: '移动端H5',
+        link: '/front-end/h5/'
+      },
+      {
+        text: '框架',
+        link: '/front-end/framework/'
+      },
+      {
+        text: '打包工具',
+        link: '/front-end/pack/'
+      },
     ]
   },
   {

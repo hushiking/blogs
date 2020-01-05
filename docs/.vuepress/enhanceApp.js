@@ -10,8 +10,10 @@ function renderValine(router) {
     // 获取不到vuepress的page加载完成时的钩子，只能采用笨方法
     setTimeout(() => {
       let $page = document.querySelector('.page')
-      $page.appendChild(vcomments)
-      valine()
+      if ($page) {
+        $page.appendChild(vcomments)
+        valine()
+      }
     }, 500)
   })
 }

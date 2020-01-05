@@ -1,6 +1,10 @@
-# 表单form 表单 name 属性和 submit() 默认事件
-
-总结 form 表单的一些属性以及 submit() 默认事件
+---
+title: form 表单 name 属性与 submit() 默认事件
+date: 2016-04-10 21:57:33
+categories: web前端
+tags: [JavaScript, form表单]
+description: "总结 form 表单的一些属性以及 submit() 默认事件。"
+---
 
 ## name 属性用途
 
