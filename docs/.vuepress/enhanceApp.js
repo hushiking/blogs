@@ -21,7 +21,7 @@ function renderValine(router) {
 function valine() {
   const Valine = require('valine')
   const leancloudStorage = require('leancloud-storage')
-  const secretkeyConf = require('../../config/secretKeyConf')
+  const secretkeyConf = require('./config/secretKeyConf')
   // require window 
   if (typeof window !== undefined) {
     window.AV = leancloudStorage

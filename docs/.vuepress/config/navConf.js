@@ -20,8 +20,8 @@ module.exports = [{
         link: '/front-end/framework/'
       },
       {
-        text: '打包工具',
-        link: '/front-end/pack/'
+        text: '工具',
+        link: '/front-end/tool/'
       },
     ]
   },
