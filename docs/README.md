@@ -1,18 +1,16 @@
 ---
 home: true
 heroImage: /Pumpkin.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
-actionLink: /zh/guide/
+heroText: 化简为凡
+tagline: 万物之始，大道至简，衍化至繁
+actionText: 进入代码世界 →
+actionLink: /front-end/javascript/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: First Question
+  details: 我今天开心了吗？什么让我开心？为什么会开心？
+- title: Second Question
+  details: 我今天做了什么？为什么要做这些？得到了什么结果？怎么做才能更有效率地完成这些？
+- title: Third Question
+  details: 我今天遇到了什么问题？这些问题的本质是什么？我怎么样解决了这些问题？任务都完成了吗？我今天的收获是什么？
+footer: MIT Licensed | Copyright © 2018-present Heath
 ---
-
-# Hello VuePress

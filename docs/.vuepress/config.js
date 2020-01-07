@@ -21,6 +21,9 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
+  markdown: {
+    lineNumbers: true // 代码行号
+  },
   // base: '/blogs/',
   themeConfig: {
     repo: 'hushiking/blogs',
