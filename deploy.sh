@@ -11,14 +11,14 @@ cd docs/.vuepress/dist
 
 # deploy to github
 # 如果是发布到自定义域名
-echo 'blogs.hushijin.top' > CNAME
+echo 'blogs.huhuhu.top' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:hushiking/blogs.git
 else
   msg='来自github action的自动部署'
   githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/hushiking/blogs.git
-  git config --global user.name "hushiking"
+  git config --global user.name "Heath"
   git config --global user.email "hushijinde@126.com"
 fi
 
