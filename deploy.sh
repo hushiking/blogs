@@ -11,7 +11,8 @@ cd docs/.vuepress/dist
 
 # deploy to github
 # 如果是发布到自定义域名
-echo 'blogs.huhuhu.top' > CNAME
+# echo 'blogs.huhuhu.top' > CNAME
+
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:hushiking/blogs.git
